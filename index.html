@@ -9,16 +9,32 @@
     <link href="assets/css/bootstrap.css" rel = "stylesheet">
     <!-- <link href="assets/css/custom.css" rel = "stylesheet"> -->
     <style>
-        div , div > div{
+        /* div , div > div{
             text-align: center;
             font-size: 35px;
             border: 1px red solid;
+        } */
+        section.hero .container {
+            height : 80vh
+        }
+        section.profile{
+            height : 100vh;
+            background: rgb(235,235,235);
+            background: linear-gradient(90deg, rgba(235,235,235,1) 0%, rgba(235,235,235,1) 39%, rgba(255,255,255,1) 39%, rgba(255,255,255,1) 100%);
+        }
+        .image_wrapper {
+            background: #fff;
+            box-shadow: 10px 10px 36px -8px rgba(0,0,0,0.75);
+
+        }
+        .image_profile {
+            padding: .5rem;
         }
     </style>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="#">Navbar scroll</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                  <span class="navbar-toggler-icon"></span>
@@ -52,22 +68,48 @@
         </nav>
     </header>
     <main>
+<!-- Section 2 Start -->
         <section class="hero">
-          <div class="container-fluid test">
-            <div class="row">
-              <div class="col-12 text-center test">
-                <h1>Όνομα Επίθετο</h1>
-                <h2>Web Developer</h2>
-              </div>
+            <div class="container">
+                <div class="row h-100 justify-content-center align-items-center">
+                  <div class="col-12 text-center">
+                    <h1>Όνομα Επίθετο</h1>
+                    <p>Web Developer</p>
+                  </div>
+                </div>
             </div>
-          </div>
         </section>
+<!-- Section 1 End -->
+<!-- Section 2 Start -->
         <section class="profile">
-  
+            <div class="container test">
+                <div class="row">
+                    <div class="col-12 col-lg-6 text-center test">
+                        <div class="image_wrapper">
+                            <img class="image_profile" src="assets/images/placeholder_image_520w.jpg" />
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="container h-100">
+                            <div class="row h-100 justify-content-start align-items-center">
+                                <div class="d-flex h-75 flex-column align-items-start test">
+                                    <h1>Όνομα Επίθετο</h1>
+                                    <span>Web Developer</span>
+                                    <p>Text</p>
+                                    <button type="button" class="btn btn-primary mt-auto">Primary</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
+<!-- Section 2 End -->
+<!-- Section 3 Start -->
         <section class="services">
   
         </section>
+<!-- Section 3 End -->
     </main>
     <footer>
   
