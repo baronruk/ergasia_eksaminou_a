@@ -7,65 +7,27 @@
     <title>Document</title>
     <!-- Bootstrap core -->
     <link href="assets/css/bootstrap.css" rel = "stylesheet">
-    <!-- <link href="assets/css/custom.css" rel = "stylesheet"> -->
+    <link href="assets/css/index_custom.css" rel = "stylesheet">
     <style>
-        /* div , div > div{
-            text-align: center;
-            font-size: 35px;
-            border: 1px red solid;
+        /* .test {
+            outline: 1px red solid;
         } */
-        section.hero .container {
-            height : 80vh
-        }
-        section.profile{
-            height : 100vh;
-            background: rgb(235,235,235);
-            background: linear-gradient(90deg, rgba(235,235,235,1) 0%, rgba(235,235,235,1) 39%, rgba(255,255,255,1) 39%, rgba(255,255,255,1) 100%);
-        }
-        .image_wrapper {
-            background: #fff;
-            box-shadow: 10px 10px 36px -8px rgba(0,0,0,0.75);
-
-        }
-        .image_profile {
-            padding: .5rem;
-        }
     </style>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#">Navbar scroll</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                 <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarScroll">
-                    <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-toggle="dropdown" aria-expanded="false">Link</a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Link</a>
-                        </li>
-                    </ul>
-                <form class="d-flex">
-                    <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+<!-- Navigation Bar Start -->
+        <nav class="navbar navbar-dark bg-custom">
+            <a class="navbar-brand">Navbar</a>
+            <div class="collapse" id="navbarToggleExternalContent">
+                <h5 class="text-white h4">Collapsed content</h5>
+                <span class="text-muted">Toggleable via the navbar brand.</span>
             </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
         </nav>
+<!-- Navigation Bar End -->
     </header>
     <main>
 <!-- Section 2 Start -->
@@ -82,9 +44,9 @@
 <!-- Section 1 End -->
 <!-- Section 2 Start -->
         <section class="profile">
-            <div class="container test">
+            <div class="container">
                 <div class="row">
-                    <div class="col-12 col-lg-6 text-center test">
+                    <div class="col-12 col-lg-6 text-center">
                         <div class="image_wrapper">
                             <img class="image_profile" src="assets/images/placeholder_image_520w.jpg" />
                         </div>

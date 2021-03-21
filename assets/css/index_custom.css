@@ -1,0 +1,40 @@
+body,html{
+    height:100%;
+}
+h1, .h1 {
+  font-size: 5rem;
+}
+h2, .h2 {
+  font-size: 2rem;
+}
+h3, .h3 {
+  font-size: 1.75rem;
+}
+h4, .h4 {
+  font-size: 1.5rem;
+}
+h5, .h5 {
+  font-size: 1.25rem;
+}
+h6, .h6 {
+  font-size: 1rem;
+}
+.bg-custom {
+  background-color: #111 !important;
+}
+section.hero .container {
+  height : 80vh
+}
+section.profile {
+  height : 100vh;
+  background: rgb(235,235,235);
+  background: linear-gradient(90deg, rgba(235,235,235,1) 0%, rgba(235,235,235,1) 39%, rgba(255,255,255,1) 39%, rgba(255,255,255,1) 100%);
+}
+.image_wrapper {
+  background: #fff;
+  box-shadow: 10px 10px 36px -8px rgba(0,0,0,0.75);
+
+}
+.image_profile {
+  padding: .5rem;
+}
