@@ -38,3 +38,25 @@ section.profile {
 .image_profile {
   padding: .5rem;
 }
+section.services {
+    height : 100vh;
+}
+article {
+    height: 325px;
+    background-color: #fff;
+}
+footer {
+    color:#fff;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+footer a:hover{
+    text-decoration: none;
+    color: rgb(75, 74, 74);
+}
+footer a:visited {
+    text-decoration: none;
+}

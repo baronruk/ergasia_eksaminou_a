@@ -7,11 +7,12 @@
     <title>Document</title>
     <!-- Bootstrap core -->
     <link href="assets/css/bootstrap.css" rel = "stylesheet">
+    <!-- Custom CSS -->
     <link href="assets/css/index_custom.css" rel = "stylesheet">
     <style>
-        /* .test {
+        .test {
             outline: 1px red solid;
-        } */
+        }
     </style>
 </head>
 <body>
@@ -44,8 +45,8 @@
 <!-- Section 1 End -->
 <!-- Section 2 Start -->
         <section class="profile">
-            <div class="container">
-                <div class="row">
+            <div class="container h-100">
+                <div class="row h-100 justify-content-start align-items-center">
                     <div class="col-12 col-lg-6 text-center">
                         <div class="image_wrapper">
                             <img class="image_profile" src="assets/images/placeholder_image_520w.jpg" />
@@ -54,8 +55,8 @@
                     <div class="col-12 col-lg-6">
                         <div class="container h-100">
                             <div class="row h-100 justify-content-start align-items-center">
-                                <div class="d-flex h-75 flex-column align-items-start test">
-                                    <h1>Όνομα Επίθετο</h1>
+                                <div class="d-flex h-75 flex-column align-items-start">
+                                    <h2>Όνομα Επίθετο</h2>
                                     <span>Web Developer</span>
                                     <p>Text</p>
                                     <button type="button" class="btn btn-primary mt-auto">Primary</button>
@@ -68,14 +69,42 @@
         </section>
 <!-- Section 2 End -->
 <!-- Section 3 Start -->
-        <section class="services">
-  
+        <section class="services py-5 bg-light">
+            <div class="container h-100">
+                <div class="row h-100 justify-content-around align-items-center">
+                    <article class="col-md-4 text-center">
+                        <h5>Προγραμματισμός</h5>
+                    </article>
+                    <article class="col-md-4 text-center">
+                        <h5>Σχεδίαση</h5>
+                    </article>
+                    <article class="col-md-4 text-center">
+                        <h5>Web Design</h5>
+                    </article>
+                    <article class="col-md-4 text-center">
+                        <h5>Φωτογραφία</h5>
+                    </article>
+                    <article class="col-md-4 text-center">
+                        <h5>Video</h5>
+                    </article>
+                    <article class="col-md-4 text-center">
+                        <h5>Εφαρμογές</h5>
+                    </article>
+                </div>
+            </div>           
         </section>
 <!-- Section 3 End -->
     </main>
-    <footer>
-  
-    </footer> 
+    <footer class="bg-custom">
+        <div class="d-flex justify-content-around mb-2">
+            <div class="p-2 bd-highlight">
+                <h4>Όνομα Επίθετο</h4>
+            </div>
+            <div class="p-2 bd-highlight">
+                <p><a href="#">Back to top</a></p>
+            </div>       
+        </div>        
+    </footer>
   <!-- jquery dependency -->
   <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script> 
   <script src="assets/js/bootstrap.bundle.js"></script>
